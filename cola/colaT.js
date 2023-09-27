@@ -138,4 +138,3 @@ document.write() // Metodo para gravar diretamente no fluxo de saida do HTML
 this. // ISSO = Refere-se a um objeto. 
 
 JSON.parse() // Metodo para converter uma String em um OBJETO js.
-parc
