@@ -4,6 +4,8 @@ prompt // cria uma caixa de digitação quando abre a pagina (confimação)
 
 + //concatenação/encadeamento [se for stg + stg = concatenação]{se for nub + nub = adição}
 
+write // escrever
+innerHtml //
 innerText //mostra um texto no html
 Number.parseFloat   //converte a variavel para um número Real{numero quebrado}
 Number.parseInt     //converte a variavel para um número inteiro
@@ -19,12 +21,16 @@ window.document.getElementsByTagName('div')[1]  // Pega todos os elemento pelo n
 window.document.getElementsByName()[1]
 
 
-s.length // letras mostra quantas letras tem na string
-s.toLowerCasepara //transforma as letras em minúsculas
-s.toUpperCase //transforma as letras em maiúsculas
+sexo.length // letras mostra quantas letras tem na string
+sexo.toLowerCasepara //transforma as letras em minúsculas
+sexo.toUpperCase //transforma as letras em maiúsculas
 
-n.replace // troca Ex: '.' , ','
-n.toFixed // Estabelece quantos numeros dps da unidade Ex: 2 (2) = 2.00
-n.toLocaleString // muda para algum lugar do mundo, mostra um salario usando style e o currency(monterio)  ex: ('pt-br', {style: 'currency', currency: 'BRL' })
+sexo.replace // troca Ex: '.' , ','
+sexo.toFixed // Estabelece quantos numeros dps da unidade Ex: 2 (2) = 2.00
+sexo.toLocaleString // muda para algum lugar do mundo, mostra um salario usando style e o currency(monterio)  ex: ('pt-br', {style: 'currency', currency: 'BRL' })
 
+        //função  ou addEventListener
 
+sexo.addEventListener('click', clicar) 
+sexo.addEventListener('mouseenter', entar)
+sexo.addEventListener('mouseout', saiu)
