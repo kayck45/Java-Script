@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Pov:Vc quer comprar uma água no Rio de janeiro</h1>
+    de onde vc é rapa? <input type="text" id="resposta">
+    <input type="button" value="comprar água" id="b">
+    <div id="txt"></div>
+
+    <script>
+        var res = document.querySelector('input#resposta')
+        var b = document.querySelector('input#b')
+        var txt = document.querySelector('div#txt')
+        
+        b.addEventListener('click', clicou)
+
+        function clicou() {
+            var resposta = res.value.toLowerCase ();
+
+            if (resposta === "brasil") {
+                txt.innerHTML = `<p>Você pagou 2 reais na água<p>`
+            } else {
+                txt.innerHTML = `<p>Você pagou 12 reais na água<p>`
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

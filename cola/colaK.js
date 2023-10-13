@@ -34,3 +34,9 @@ sexo.toLocaleString // muda para algum lugar do mundo, mostra um salario usando 
 sexo.addEventListener('click', clicar) 
 sexo.addEventListener('mouseenter', entar)
 sexo.addEventListener('mouseout', saiu)
+
+
+        // Condições 
+
+if     //condição simples de "Se" se for isso faça algo
+else   //condição simples de "se não" se NÂO for isso faça algo
